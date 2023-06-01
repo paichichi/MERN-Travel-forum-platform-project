@@ -1,0 +1,32 @@
+:root {
+    --color-deepDarkGreen: #2F3E46;
+    --color-DarkGreen: #354F52;
+    --color-Green: #52796F;
+    --color-lightGreen: #84A98C;
+    --color-ivory: #CAD2C5;
+}
+
+.registerbox {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.registerbox ul {
+    display: flex;
+    padding: 0;
+}
+
+.registerbox li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.registerbox li a {
+    text-decoration: none;
+    display: block;
+    font-size: 10pt;
+    width: 100%;
+    font-weight: bold;
+    color: var(--color-lightGreen);
+}

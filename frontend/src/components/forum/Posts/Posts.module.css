@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.noPost {
+  font-size: 20px;
+  color: gray;
+  padding-top: 200px;
+}

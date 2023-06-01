@@ -1,0 +1,16 @@
+# Directories
+node_modules/
+logs/
+*.log
+
+# Files
+.env
+*.env
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Dependencies
+package-lock.json
+yarn.lock

@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    min-width: 80vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .container.unread {
+    border: none;
+    background-color: #e1e0e0;
+  }
+  
+  .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  
+  .content {
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87)
+  }
+  
+  .lower {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .replybtn,
+  .readbtn {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #84a98c;
+    border-radius: 5px;
+    min-width: 70px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 500;
+    cursor: pointer; 
+  }
+  
+  .hint {
+    font-size: 12px;
+  }
+  
+  .readbtn:hover,
+  .replybtn:hover {
+    background-color: #52796f;
+  }
+  
+  .REdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .REinput {
+    min-height: 7vh;
+    width: 70vh;
+    border-radius: 4px; /* Material Design 推荐圆角半径为4px */
+  }
+  
+  .hintarea {
+    min-width: 70vh;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .btnarea>* {
+    color: white;
+    background-color: #84a98c;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px; /* Material Design 推荐圆角半径为4px */
+    min-width: 70px;
+    text-transform: uppercase; /* 文字全部大写 */
+  }
+  
+  .extrabtn:hover {
+    background-color: #52796f;
+  }
+  

@@ -1,0 +1,70 @@
+:root {
+    --color-deepDarkGreen: #2f3e46;
+    --color-DarkGreen: #354f52;
+    --color-Green: #52796f;
+    --color-lightGreen: #84a98c;
+    --color-ivory: #cad2c5;
+}
+
+.header {
+  display: flex;
+  padding: 0px 100px;
+  height: 120px;
+    display: flex;
+    padding: 0px 100px;
+    height: 150px;
+}
+
+.container {
+  display: flex;
+  border-bottom: 1px solid #969696;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+    display: flex;
+    border-bottom: 1px solid #969696;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    flex: 1;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    flex: 1;
+    height: auto;
+    display: flex;
+    justify-content: left;
+}
+
+.logoIamge {
+    padding-left: 5px;
+    width: 60px;
+}
+
+.menu {
+    flex: 1;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+    flex: 1;
+    height: auto;
+    display: flex;
+    justify-content: right;
+}
+
+.logo {
+    color: var(--color-Green);
+    font-size: 30pt;
+    text-decoration: none;
+    height: fit-content;
+}

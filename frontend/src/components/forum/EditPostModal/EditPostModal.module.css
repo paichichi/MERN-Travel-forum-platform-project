@@ -1,0 +1,76 @@
+.container {
+  width: 100vw;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.modal {
+  border-radius: 10px;
+  width: 600px;
+  height: 260px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  gap: 15px;
+}
+
+.title {
+  font-size: 26px;
+  color: #73a297;
+  font-weight: bold;
+}
+
+.editBox {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  width: 100%;
+  height: 100px !important;
+  resize: none;
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-top: 10px;
+  outline: none;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btnContainer button {
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btnContainer button:hover {
+  opacity: 0.8;
+}
+
+.updateBtn {
+  background-color: #73a297;
+}
+
+.cancelBtn {
+  background-color: rgb(177, 175, 175);
+}

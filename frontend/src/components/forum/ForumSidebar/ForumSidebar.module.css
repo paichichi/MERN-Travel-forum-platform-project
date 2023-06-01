@@ -1,0 +1,103 @@
+.sidebar {
+  height: calc(100vh - 150px);
+  width: 300px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sidebarSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.sidebarSectionLabel {
+  font-size: 20px;
+  color: var(--color-darkGray);
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.selectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style-type: none;
+}
+
+.option {
+  width: 100%;
+  color: var(--color-DarkGreen);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px 10px 10px 70px;
+  cursor: pointer;
+}
+
+.option.active {
+  background-color: var(--color-ligterGreen);
+}
+
+.clearFilterBtn {
+  margin-left: 71px;
+  width: 100px;
+  font-size: 15px;
+  color: var(--color-DarkGreen);
+  border: none;
+  outline: none;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.clearFilterBtn:hover {
+  opacity: 0.8;
+}
+
+.location {
+  display: flex;
+  padding: 10px 5px 5px 70px;
+  gap: 6px;
+  align-items: center;
+  font-size: 17px;
+  color: var(--color-DarkGreen);
+}
+
+.authorInput {
+  margin-left: 50px;
+  width: 200px;
+  height: 25px;
+  border: 1px solid var(--color-DarkGreen);
+  padding-left: 10px;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+
+.userSearchContainer {
+  display: flex;
+}
+
+.userSearchContainer button {
+  width: 30px;
+  border: none;
+  background-color: var(--color-DarkGreen);
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.userSearchContainer button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

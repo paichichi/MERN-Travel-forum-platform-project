@@ -1,0 +1,39 @@
+.privacyPolicy {
+    color: #3c4043;
+    max-width: 800px;
+    margin: 2rem auto;
+    line-height: 1.5;
+  }
+  
+  .privacyPolicyTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .privacyPolicyIntroduction {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .privacyPolicySection {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .privacyPolicyQuestion {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+  }
+  
+  .privacyPolicyContact {
+    margin-top: 2rem;
+    font-style: italic;
+  }
+  
+  
+  
+  
+  
+  
+  

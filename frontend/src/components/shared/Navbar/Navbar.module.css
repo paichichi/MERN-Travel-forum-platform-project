@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  /* background-color: blue; */
+  /* align-items: center;
+  justify-content: center ; */
+}
+
+
+.navbar ul {
+  display: flex;
+  padding: 0;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin: 0 50px;
+  /* background-color: aqua; */
+}
+
+.navbar li a {
+  text-decoration: none;
+  display: block;
+  font-size: 10pt;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+}
+

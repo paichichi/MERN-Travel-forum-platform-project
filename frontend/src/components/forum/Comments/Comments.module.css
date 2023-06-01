@@ -1,0 +1,41 @@
+.container {
+  border-top: 2px solid #73a297;
+  padding-top: 30px;
+}
+
+.addComment {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.addCommentInput {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  padding-left: 10px;
+  font-size: 17px;
+  outline: none;
+}
+
+.addCommentBtn {
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #73a297;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+
+.addCommentBtn:hover {
+  opacity: 0.9;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}

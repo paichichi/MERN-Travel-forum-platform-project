@@ -1,0 +1,36 @@
+.cookiesPolicy {
+    color: #3c4043;
+    max-width: 800px;
+    margin: 2rem auto;
+    line-height: 1.5;
+  }
+  
+  .cookiesPolicyTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cookiesPolicyIntroduction {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cookiesPolicySection {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .cookiesPolicyContact {
+    margin-top: 2rem;
+    font-style: italic;
+  }
+  
+  .cookiesLink {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .cookiesLink:hover {
+    text-decoration: underline;
+  }
+  
