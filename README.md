@@ -124,13 +124,3 @@ We utilized Postman to test the functionality of our Travel Planner application'
 [Postman workspace for Forum feature](https://www.postman.com/altimetry-explorer-81151412/workspace/postman-testing-for-backend/request/16189776-805431c5-eb33-414b-a983-daaa8374ebb1)
 
 [Postman workspace for Travel Planner feature](https://www.postman.com/avionics-explorer-49655998/workspace/travel-palnn/overview)
-
-# Contribution
-
-| Group Member | Contribution                          |
-| ------------ | ------------------------------------- |
-| Neil         | Travel Planner (frontend and backend) |
-| Leo          | Travel Planner (frontend and backend) |
-| Hongda       | Authentication (frontend and backend) |
-| Jason        | Forum (frontend and backend)          |
-| Daniel       | Overall design                        |
